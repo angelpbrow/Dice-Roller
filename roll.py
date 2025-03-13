@@ -12,9 +12,11 @@ while x >= 3:
   print(roll1)
 # roll 2 - produce two numbers 1-6 and print them
   roll2 = randrange(6)
-    print(roll1, roll2)
+    print(roll2, roll1)
 # roll 3 - produce three numbers and print them.
     roll3 = randrange(6)
       print(roll1, roll2, roll3)
 #
+else:
+print(roll1, roll2, roll3)
 
