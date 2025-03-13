@@ -5,21 +5,24 @@ from random import randrange
 x = 3
 
 # roll - run it once and go into a loop
-  def die():
+  def die(n):
 	roll = randrange(6)
-	print (roll) 
-
+	print (roll * n) 
+#can the print be multiplied by n roll once it's rolled again?
 
 while x >= 3:
 # roll 1 - produce a number 1-6 random and print it
- die()
+ if n == 1:
+	die(1) --> will print (roll * 1)
 # roll 2 - produce two numbers 1-6 and print them
-  roll2 = randrange(6)
-    print(roll2 die(), roll1 die())
+elif n == 2: 
+  die(2) --> will print (roll * 2)
+    print(die(2) = roll2 die(), roll1 die())
 # roll 3 - produce three numbers and print them.
-    roll3 = randrange(6)
-      print(roll1, roll2, roll3)
+elif n == 3
+   die(3) --> will print (roll * 3)
+      print(die(3))= roll1, roll2, roll3)
 #
 else:
-print(roll1, roll2, roll3)
+print("youve ran out of rolls")
 
