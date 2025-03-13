@@ -1,5 +1,11 @@
 from random import randrange
 
+# roll a "die" some number of times.
+# rolling die 3x
+#result = ""
+
+# roll - run it once and go into a loop
+
 rolls = []
 
 def die():
@@ -15,23 +21,21 @@ def die3():
 	return rolls.append(roll3)
 
 
-i = 0
-def play():
+#i = 0
+#def play():
+#	while i <= 3:
+#		if i == 1:
+#			return die()
+#		elif i == 2:
+#			return die2()
+#		else:
+#			return die3()
+#i += 1
 
-    while (i <= 3):
-        if (i == 1):
-	         return die()
-		 print(rolls)
-		elif (i == 2):
-			return die2()
-			print(rolls)
-        else:
-			return die3()
-			print(rolls)
-        i += 1
 
-#die()
-#die2()
-#die3()
-play()
+die()
+print(rolls)
+die2()
+print(rolls)
+die3()
 print(rolls)
