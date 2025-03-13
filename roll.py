@@ -6,36 +6,24 @@ from random import randrange
 
 # roll - run it once and go into a loop
 
-rolls = []
+
 
 def die():
-	roll1 = randrange(6)
-	return rolls.append(roll1)
+	roll = randrange(1,7)
+	return roll
 
-def die2():
-	roll2 = randrange(6)
-	return rolls.append(roll2)
+def game():
+	play_game = True
+while True:
+	rolls[] = {}
+	x = input("Your first roll is: " die())
+	rolls.append(x)
+for i in range int(x):
+	d = input("Your next roll is: " + die())
+	rolls.append(d)
+p = input("Would you like to roll again?")
+	if p == 'N':
+		play_game = False
 
-def die3():
-	roll3 = randrange(6)
-	return rolls.append(roll3)
+play_game()
 
-
-#i = 0
-#def play():
-#	while i <= 3:
-#		if i == 1:
-#			return die()
-#		elif i == 2:
-#			return die2()
-#		else:
-#			return die3()
-#i += 1
-
-
-die()
-print(rolls)
-die2()
-print(rolls)
-die3()
-print(rolls)
