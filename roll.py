@@ -21,13 +21,17 @@ def play():
     while (i <= 3):
         if (i == 1):
 	         return die()
+		 print(rolls)
 		elif (i == 2):
 			return die2()
+			print(rolls)
         else:
 			return die3()
+			print(rolls)
         i += 1
 
 #die()
 #die2()
 #die3()
+play()
 print(rolls)
